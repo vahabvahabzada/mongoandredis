@@ -18,6 +18,7 @@ public class CarMapper {
         if(carDto.getId()!=null){
             car.setId(carDto.getId());
         }
+        car.setId(carDto.getId());
         car.setModel(carDto.getModel());
         car.setBrand(carDto.getBrand());
         car.setPrice(carDto.getPrice());
